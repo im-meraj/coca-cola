@@ -1,3 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+
 * {
     margin: 0;
     padding: 0;
@@ -166,8 +168,85 @@ html, body {
     width: 125%;
 }
 
+#tomb #capsule {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    right: -36%;
+    width: 45%;
+    height: 3.2vw;
+    border-radius: 100px;
+    background-color: rgb(20, 20, 20);
+    padding: 0 25px 0 10px;
+}
+
+#tomb #capsule__photo {
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url(https://images.unsplash.com/photo-1527203561188-dae1bc1a417f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+#tomb #capsule h6 {
+    color: #dbad62;
+}
+
 #right {
+    position: relative;
     width: calc(100%/3);
     min-height: inherit;
-    background-color: goldenrod;
+}
+
+#rbottom {
+    position: absolute;
+    bottom: 9vh;
+    width: 80%;
+    padding: 0 5vw;
+}
+
+#rbottom .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    opacity: 0.5;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #444;
+    padding-bottom: 10px;
+}
+
+#rbottom .row:nth-child(3) {
+    border-bottom: none;
+    padding-bottom: 0;
+    opacity: 1;
+}
+
+#rbottom p {
+    width: 80%;
+    font-size: 0.6vw;
+    color: #fff;
+}
+
+#rbottom #scroll {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #666;
+    margin-top: 40px;
+}
+
+#rbottom #circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #666;
 }
