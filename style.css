@@ -147,11 +147,23 @@ html, body {
 }
 
 #hcenter #tomb {
+    position: relative;
     width: 70%;
     min-height: 70vh;
     border-top-left-radius: 500px;
     border-top-right-radius: 500px;
-    background-color: red;
+    background-image: url(../images/coca-cola__heroBG.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#hcenter #tomb img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 125%;
 }
 
 #right {
