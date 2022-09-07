@@ -80,7 +80,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 20px;
+    gap: 4vh;
     width: calc(100%/3);
     min-height: inherit;
     padding: 0 0 0 5vw;
@@ -91,6 +91,7 @@ html, body {
     width: 100%;
     color: #fff;
     font-size: 3.8vw;
+    line-height: 1;
     /* background-color: #770000; */
 }
 
@@ -101,7 +102,7 @@ html, body {
 
 #left p {
     width: 65%;
-    line-height: 1;
+    line-height: 1.5;
     color: #fff;
     font-size: 0.8vw;
 }
@@ -113,17 +114,28 @@ html, body {
     cursor: pointer;
 }
 
+#button-container a i {
+    margin-right: 10px;
+}
+
 #button-container a {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 150px;
+    width: 9vw;
     height: 50px;
     border-radius: 50px;
     color: #fff;
     background-color: #e71725;
-    font-size: 1vw;
+    font-size: 0.8vw;
+    font-weight: 600;
     text-decoration: none;
+}
+
+#button-container > i {
+    font-size: 1.5vw;
+    font-weight: normal;
+    color: #e71725;
 }
 
 #hcenter {
